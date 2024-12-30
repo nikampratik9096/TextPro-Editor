@@ -1,0 +1,84 @@
+/* General Styling for Editor Container */
+.editor-container {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Ensuring Text is Black While Typing */
+.editor-container .ProseMirror {
+  color: #333333 !important; /* A dark grey color for better contrast and readability */
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Styling the Toolbar Buttons */
+.toolbar button {
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Toolbar Button Hover Effect */
+.toolbar button:hover {
+  background-color: #e0e0e0;
+}
+
+/* Active State for Buttons */
+.toolbar .is-active {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Footer Styling */
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+}
+
+/* Styling for the Save Button */
+.editor-container button {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.editor-container button:hover {
+  background-color: #45a049;
+}
+
+/* Styling for the Browser Icon */
+.editor-container .toolbar button img {
+  width: 20px;
+  height: 20px;
+}
+
+/* Editor content area styling */
+.ProseMirror {
+  min-height: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+/* Ensure that all text is properly visible with good contrast */
+body {
+  background-color: #ffffff; /* Light background for good visibility */
+  color: #333333; /* Ensures all text on the page is visible with good contrast */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333333; /* Dark color for headers */
+}
