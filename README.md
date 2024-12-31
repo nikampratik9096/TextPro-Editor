@@ -71,7 +71,7 @@ npm run dev
 Access the Application:
 Open your browser and navigate to http://localhost:5173/.
 
-✨ Additional Features & Ideas
+✨  Features & Ideas
 
 TextPro Editor currently provides the following features:
 
