@@ -22,18 +22,6 @@ Languages: HTML, CSS, JavaScript (ES6+)
 
 Version Control: Git
 
-📂 Project Structure
-
-Here is a quick overview of the folder structure:
-
-/textpro-editor
-├── /public       # Static assets (e.g., images, icons)
-├── /src          # Source code
-│   ├── /assets   # Styles and reusable assets
-│   ├── /components  # Modular UI components
-│   └── main.js   # Application entry point
-├── vite.config.js # Vite configuration file
-└── manifest.json  # Chrome extension manifest file
 
 🚀 Getting Started
 
