@@ -91,6 +91,8 @@ Undo & Redo: Effortlessly undo and redo changes.
 
 Browser Icon: Easily access the editor from your browser toolbar.
 
+Looks :
+![Screenshot 2025-01-03 144638](https://github.com/user-attachments/assets/550fdf2d-3554-41f3-906d-80cfa121aff6)
 
 🤝 Connect With Me
 
