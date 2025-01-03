@@ -47,10 +47,8 @@ Install Dependencies:
 
 npm install
 
-
-Enable Developer Mode (toggle in the top-right corner).
-
-Click Load unpacked and select the project directory.
+Install Vite 
+npm install -g vite
 
 Start the Development Server:
 
