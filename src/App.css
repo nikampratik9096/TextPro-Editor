@@ -1,42 +1,105 @@
-/* General Styling for Editor Container */
+
 .editor-container {
   font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  background-color: #f4f4f4;
+  background-color: #f5f5f5; 
+  color: #000; 
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
   padding: 20px;
   border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-/* Ensuring Text is Black While Typing */
-.editor-container .ProseMirror {
-  color: #333333 !important; /* A dark grey color for better contrast and readability */
-  font-size: 16px;
-  line-height: 1.5;
+.editor-container h1 {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
 }
 
-/* Styling the Toolbar Buttons */
+/* Toolbar styling */
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
 .toolbar button {
-  padding: 5px 10px;
-  margin: 5px;
-  background-color: #f1f1f1;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #f0f0f0;
   border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  color: #000; /* Ensure button names are black */
+}
+
+.toolbar button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.toolbar button.is-active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+
+.ProseMirror {
+  border: none; 
+  box-shadow: none;
+  min-height: 200px;
+  padding: 10px;
+  background-color: #ffffff; 
+  color: #000000; 
+  font-size: 16px;
+  outline: none; 
+}
+
+
+.ProseMirror:focus {
+  outline: none; 
+  border: none; 
+}
+
+button {
+  font-size: 14px;
+  padding: 8px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
-/* Toolbar Button Hover Effect */
-.toolbar button:hover {
-  background-color: #e0e0e0;
+button:hover {
+  background-color: #45a049;
 }
 
-/* Active State for Buttons */
-.toolbar .is-active {
-  background-color: #007bff;
-  color: white;
+button:disabled {
+  background-color: #c8c8c8;
+  cursor: not-allowed;
 }
 
-/* Footer Styling */
+/* Styling for the saved content */
+.saved-content {
+  background-color: #fafafa;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.saved-content h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+/* Footer styling */
 footer {
   margin-top: 20px;
   text-align: center;
@@ -44,41 +107,9 @@ footer {
   color: #888;
 }
 
-/* Styling for the Save Button */
-.editor-container button {
-  padding: 10px 15px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.editor-container button:hover {
-  background-color: #45a049;
-}
-
-/* Styling for the Browser Icon */
-.editor-container .toolbar button img {
+/* Styling for the browser icon button */
+button img {
   width: 20px;
   height: 20px;
-}
-
-/* Editor content area styling */
-.ProseMirror {
-  min-height: 200px;
-  border: 1px solid #ccc;
-  padding: 10px;
-  background-color: #ffffff;
-  border-radius: 5px;
-}
-
-/* Ensure that all text is properly visible with good contrast */
-body {
-  background-color: #ffffff; /* Light background for good visibility */
-  color: #333333; /* Ensures all text on the page is visible with good contrast */
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: #333333; /* Dark color for headers */
+  margin: 0;
 }
