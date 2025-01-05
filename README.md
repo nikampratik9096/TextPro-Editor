@@ -91,6 +91,8 @@ Undo & Redo: Effortlessly undo and redo changes.
 
 Browser Icon: Easily access the editor from your browser toolbar.
 
+Deployment link : https://textpromaxeditor.netlify.app/
+
 Looks :
 ![Screenshot 2025-01-03 144638](https://github.com/user-attachments/assets/550fdf2d-3554-41f3-906d-80cfa121aff6)
 
