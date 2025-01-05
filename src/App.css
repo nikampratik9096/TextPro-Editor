@@ -85,8 +85,6 @@ button:disabled {
   background-color: #c8c8c8;
   cursor: not-allowed;
 }
-
-/* Styling for the saved content */
 .saved-content {
   background-color: #fafafa;
   padding: 20px;
