@@ -1,4 +1,4 @@
-TextPro Editor
+TextProMax Editor
 
 Welcome to TextPro Editor, a Chrome extension that provides a seamless text editing experience directly within your browser. This project highlights modern frontend development practices and is built using the Vite framework for optimal performance.
 
